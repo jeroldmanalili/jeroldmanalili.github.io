@@ -1739,6 +1739,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin: 0;
     padding-bottom: 18rem;
     position: absolute;
+    z-index: 2;
     bottom: 0;
     right: 40px;
 }
@@ -4191,8 +4192,7 @@ article.blog-single .blog-content {
     }
     .tab-nav__list {
         display          : block;
-        background-color : #fff;
-        border-radius    : ;
+        background-color : none;
         border           : none;
     }
 
